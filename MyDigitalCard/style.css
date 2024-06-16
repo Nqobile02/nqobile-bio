@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@200&display=swap');
+
+* {
+    font-size: 20px;
+    font-family: 'Noto Serif Display', serif;
+    background-color: rgb(179, 11, 179);
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 30px;
+    padding: 30px;
+}
+
+h1 {
+    font-size:large;
+}
+
+p {
+    font-size:medium;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    background: white;
+    color: black;
+    margin: 25px;
+    padding: 30px 5px; 
+    box-shadow: 10px 10px rgb(245, 119, 245);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: royalblue;
+    color: white;
+
+}
+
+
+.social-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    margin: 5px;
+    cursor: pointer;
+}
+.social-icon:hover {
+    background: royalblue;
+}
